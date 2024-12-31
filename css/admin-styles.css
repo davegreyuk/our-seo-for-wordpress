@@ -1,0 +1,242 @@
+/* General styling for the settings page */
+.wrap h1 {
+    font-size: 2rem;
+    color: #23282d;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.seo-for-wordpress-settings .form-table {
+    margin: 20px 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.seo-for-wordpress-settings .form-table th {
+    text-align: left;
+    color: #444;
+    font-size: 1rem;
+    padding: 15px 20px;
+    vertical-align: top;
+    background-color: #f1f1f1;
+}
+
+.seo-for-wordpress-settings .form-table td {
+    padding: 10px 20px;
+}
+
+/* Text fields and textareas */
+.seo-for-wordpress-settings input[type="text"],
+.seo-for-wordpress-settings textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Modern toggle switches for checkboxes */
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle-switch span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border-radius: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.toggle-switch span:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.toggle-switch input:checked + span {
+    background-color: #28a745;
+}
+
+.toggle-switch input:checked + span:before {
+    transform: translateX(20px);
+}
+
+/* Upload button alignment */
+.upload-button {
+    margin-left: 10px;
+    font-size: 0.9rem;
+    padding: 5px 10px;
+}
+
+/* Add spacing between form sections */
+.seo-for-wordpress-settings .form-table + .form-table {
+    margin-top: 30px;
+}
+
+/* Wrapper styles for settings page */
+.seo-for-wordpress-settings.wrap {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+/* Header styles */
+.seo-for-wordpress-settings h1 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Tab navigation styling */
+.seo-for-wordpress-settings .nav-tab-wrapper {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+    padding: 0;
+    border-bottom: 0 !important;
+}
+
+.seo-for-wordpress-settings .nav-tab {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #0073aa;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin-left: 0;
+    margin-right: 6px;
+}
+
+.seo-for-wordpress-settings .nav-tab:hover {
+    background-color: #0073aa;
+    color: #fff;
+}
+
+.seo-for-wordpress-settings .nav-tab-active {
+    background-color: #0073aa;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Form table styling */
+.seo-for-wordpress-settings .form-table {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.seo-for-wordpress-settings .form-table td {
+    padding: 10px;
+}
+
+.seo-for-wordpress-settings input[type="text"],
+.seo-for-wordpress-settings textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+}
+
+.seo-for-wordpress-settings textarea {
+    height: 100px;
+}
+
+/* Buttons */
+.seo-for-wordpress-settings .button-primary {
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.seo-for-wordpress-settings .button-primary:hover {
+    background-color: #005177;
+}
+
+/* Spacing between sections */
+.seo-for-wordpress-settings .form-table + .form-table {
+    margin-top: 30px;
+}
+
+#seowp-support-btn,
+#seowp-docs-btn {
+    line-height: 22px;
+    float: right;
+    margin-left: 12px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 6;
+}
+
+.seo-metabox {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.seo-field-group {
+    margin-bottom: 15px;
+}
+
+.seo-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.seo-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.seo-checkbox-label {
+    font-size: 14px;
+}
+
+.seo-description {
+    font-size: 12px;
+    color: #666;
+}
+
+.seo-upload-button {
+    margin-top: 5px;
+}
