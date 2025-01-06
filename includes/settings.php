@@ -120,11 +120,18 @@ function seo_wp_register_settings() {
         [ 'label_for' => 'website_image', 'option_name' => 'seo_wp_general_settings', 'field_name' => 'website_image' ]
     );
 
-    add_settings_section( 'seo_wp_social_section', __( 'Social Media Appearance', 'seo-for-wordpress' ), null, 'seo_wp_general' );
+    add_settings_section(
+        'seo_wp_social_section',
+        __( 'Social Media Appearance', 'seo-for-wordpress' ),
+        function () {
+            echo '<p>' . esc_html__( 'Configure how your content appears when shared on social media using Open Graph meta tags.', 'seo-for-wordpress' ) . '</p>';
+        },
+        'seo_wp_general'
+    );
 
     add_settings_field(
         'social_title',
-        __( 'Social Title', 'seo-for-wordpress' ),
+        __( 'Social Media Title', 'seo-for-wordpress' ),
         'seo_wp_render_text_field',
         'seo_wp_general',
         'seo_wp_social_section',
@@ -133,7 +140,7 @@ function seo_wp_register_settings() {
 
     add_settings_field(
         'social_description',
-        __( 'Social Description', 'seo-for-wordpress' ),
+        __( 'Social Media Description', 'seo-for-wordpress' ),
         'seo_wp_render_textarea_field',
         'seo_wp_general',
         'seo_wp_social_section',
@@ -142,14 +149,14 @@ function seo_wp_register_settings() {
 
     add_settings_field(
         'social_image',
-        __( 'Social Image', 'seo-for-wordpress' ),
+        __( 'Social Media Image', 'seo-for-wordpress' ),
         'seo_wp_render_upload_field',
         'seo_wp_general',
         'seo_wp_social_section',
         [ 'label_for' => 'social_image', 'option_name' => 'seo_wp_general_settings', 'field_name' => 'social_image' ]
     );
 
-    // Advanced Settings
+    // Advanced Settings.
     register_setting( 'seo_wp_advanced_settings_group', 'seo_wp_advanced_settings', 'seo_wp_sanitize_advanced_settings' );
 
     add_settings_section( 'seo_wp_metadata_section', __( 'Remove Unwanted Metadata', 'seo-for-wordpress' ), null, 'seo_wp_advanced' );
