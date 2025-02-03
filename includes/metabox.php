@@ -93,7 +93,7 @@ function seo_wp_save_seo_meta( $post_id ) {
         return;
     }
 
-    $fields = [ 'seo_wp_seo_title', 'seo_wp_seo_description', 'seo_wp_seo_keywords' ];
+    $fields = [ 'seo_wp_seo_title', 'seo_wp_seo_description', 'seo_wp_seo_keywords', 'seo_wp_seo_image' ];
     foreach ( $fields as $field ) {
         if ( isset( $_POST[ $field ] ) ) {
             update_post_meta( $post_id, "_$field", sanitize_text_field( $_POST[ $field ] ) );
