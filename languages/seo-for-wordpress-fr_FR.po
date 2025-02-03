@@ -1,0 +1,298 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SEO for WordPress®\n"
+"POT-Creation-Date: 2025-02-03 01:07-0500\n"
+"PO-Revision-Date: 2025-02-03 01:09-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: seo-for-wordpress.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: includes/breadcrumbs.php:30
+msgid "Home"
+msgstr "Accueil"
+
+#: includes/breadcrumbs.php:81
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Résultats de recherche pour : %s"
+
+#: includes/breadcrumbs.php:85
+msgid "404 Not Found"
+msgstr "Erreur 404 - Page non trouvée"
+
+#: includes/metabox.php:13 includes/settings.php:15 includes/settings.php:16
+#: includes/settings.php:36
+msgid "SEO Settings"
+msgstr "Paramètres SEO"
+
+#: includes/metabox.php:38
+msgid "SEO Title"
+msgstr "Titre SEO"
+
+#: includes/metabox.php:43
+msgid "SEO Description"
+msgstr "Description SEO"
+
+#: includes/metabox.php:48
+msgid "SEO Keywords"
+msgstr "Mots-clés SEO"
+
+#: includes/metabox.php:53
+msgid "SEO Image"
+msgstr "Image de SEO"
+
+#: includes/metabox.php:55 includes/metabox.php:174
+msgid "Upload Image"
+msgstr "Télécharger une image"
+
+#: includes/metabox.php:61
+msgid "Noindex this page"
+msgstr "Noindexer cette page"
+
+#: includes/metabox.php:68
+msgid "Nofollow links on this page"
+msgstr "Liens Nofollow sur cette page"
+
+#: includes/metabox.php:73 includes/metabox.php:198
+msgid "Canonical URL"
+msgstr "URL Canonique"
+
+#: includes/metabox.php:75
+msgid "Set a canonical URL for this page. Leave blank to use the default."
+msgstr ""
+"Définir une URL canonique pour cette page. Laisser vide pour utiliser l'URL "
+"par défaut."
+
+#: includes/metabox.php:130 includes/metabox.php:152
+msgid "Meta Title"
+msgstr "Titre Meta"
+
+#: includes/metabox.php:132 includes/metabox.php:156
+msgid "Set a meta title for this archive."
+msgstr "Définir un titre méta pour cette archive."
+
+#: includes/metabox.php:135 includes/metabox.php:161
+msgid "Meta Description"
+msgstr "Description Meta"
+
+#: includes/metabox.php:137 includes/metabox.php:165
+msgid "Set a meta description for this archive."
+msgstr "Définir une méta-description pour cette archive."
+
+#: includes/metabox.php:170
+msgid "Meta Image"
+msgstr "Meta Image"
+
+#: includes/metabox.php:175
+msgid "Set an image for this archive (used for social media sharing)."
+msgstr ""
+"Définir une image pour cette archive (utilisée pour le partage sur les "
+"médias sociaux)."
+
+#: includes/metabox.php:180
+msgid "Noindex"
+msgstr "Noindex"
+
+#: includes/metabox.php:184
+msgid "Prevent this archive from being indexed by search engines."
+msgstr "Empêcher l'indexation de cette archive par les moteurs de recherche."
+
+#: includes/metabox.php:189
+msgid "Nofollow"
+msgstr "Pas de suivi"
+
+#: includes/metabox.php:193
+msgid "Add nofollow to links in this archive."
+msgstr "Ajouter un lien nofollow aux liens de cette archive."
+
+#: includes/metabox.php:202
+msgid "Set a canonical URL for this archive. Leave blank to use the default."
+msgstr ""
+"Définir une URL canonique pour cette archive. Laisser vide pour utiliser "
+"l'URL par défaut."
+
+#: includes/settings.php:38
+msgid "Support"
+msgstr "Support"
+
+#: includes/settings.php:41
+msgid "Documentation"
+msgstr "Documentation"
+
+#: includes/settings.php:47
+msgid "General"
+msgstr "Général"
+
+#: includes/settings.php:50
+msgid "Advanced"
+msgstr "Avancé"
+
+#: includes/settings.php:85
+#, fuzzy
+msgid "Website Basics"
+msgstr "Les bases du site web"
+
+#: includes/settings.php:89 includes/settings.php:516
+msgid "Website Name"
+msgstr "Nom du site"
+
+#: includes/settings.php:98
+msgid "Website Tagline"
+msgstr "Slogan du site Web"
+
+#: includes/settings.php:107
+msgid "Title Separator"
+msgstr "Séparateur de titre"
+
+#: includes/settings.php:116
+msgid "Website Image"
+msgstr "Image du site web"
+
+#: includes/settings.php:125
+msgid "Social Media Appearance"
+msgstr "Apparition dans les médias sociaux"
+
+#: includes/settings.php:127
+msgid ""
+"Configure how your content appears when shared on social media using Open "
+"Graph meta tags."
+msgstr ""
+"Configurez l'affichage de votre contenu lorsqu'il est partagé sur les "
+"médias sociaux à l'aide des balises méta Open Graph."
+
+#: includes/settings.php:134
+msgid "Social Media Title"
+msgstr "Titre des médias sociaux"
+
+#: includes/settings.php:143
+msgid "Social Media Description"
+msgstr "Description des médias sociaux"
+
+#: includes/settings.php:152
+msgid "Social Media Image"
+msgstr "Image des médias sociaux"
+
+#: includes/settings.php:162
+msgid "Remove Unwanted Metadata"
+msgstr "Supprimer les métadonnées indésirables"
+
+#: includes/settings.php:166
+msgid "Remove Shortlinks"
+msgstr "Supprimer les liens courts"
+
+#: includes/settings.php:175
+msgid "Remove REST API Links"
+msgstr "Supprimer les liens API REST"
+
+#: includes/settings.php:184
+msgid "Remove RSD/WLW Links"
+msgstr "Supprimer les liens RSD/WLW"
+
+#: includes/settings.php:193
+msgid "Remove oEmbed Links"
+msgstr "Supprimer les liens oEmbed"
+
+#: includes/settings.php:200
+msgid "Sitemaps"
+msgstr "Sitemaps"
+
+#: includes/settings.php:204
+msgid "Enable Sitemaps"
+msgstr "Activer les sitemaps"
+
+#: includes/settings.php:211
+msgid "Breadcrumbs"
+msgstr "Fil d’Ariane"
+
+#: includes/settings.php:215
+msgid "Separator Between Breadcrumbs"
+msgstr "Séparateur de chapelure"
+
+#: includes/settings.php:224
+msgid "Homepage Anchor Text"
+msgstr "Texte d'ancrage de la page d'accueil"
+
+#: includes/settings.php:233
+msgid "Breadcrumbs Prefix"
+msgstr "Préfixe du fil d'Ariane"
+
+#: includes/settings.php:242
+msgid "Bold Current Page"
+msgstr "Page actuelle en gras"
+
+#: includes/settings.php:249
+msgid "RSS"
+msgstr "RSS"
+
+#: includes/settings.php:253
+msgid "Content Before Posts in Feed"
+msgstr "Contenu avant les messages dans le flux"
+
+#: includes/settings.php:262
+msgid "Content After Posts in Feed"
+msgstr "Contenu après les messages dans le flux"
+
+#: includes/settings.php:271
+msgid "Add Featured Images to Feed"
+msgstr "Ajouter des images vedettes au flux"
+
+#: includes/settings.php:278
+msgid "Robots"
+msgstr "Robots"
+
+#: includes/settings.php:282
+msgid "Custom Robots.txt Rules"
+msgstr "Règles Robots.txt personnalisées"
+
+#: includes/settings.php:441
+msgid "Add Image"
+msgstr "Ajouter une image"
+
+#: includes/settings.php:476 includes/settings.php:477
+#: includes/settings.php:510
+msgid "SEO Network Settings"
+msgstr "Paramètres du réseau SEO"
+
+#: includes/settings.php:504
+msgid "Settings saved."
+msgstr "Paramètres sauvegardés."
+
+#: includes/settings.php:525
+msgid "Save Changes"
+msgstr "Sauvegarder les changements"
+
+#. Plugin Name of the plugin/theme
+msgid "SEO for WordPress®"
+msgstr "SEO pour WordPress®"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/robertdevore/seo-for-wordpress/"
+msgstr "https://github.com/robertdevore/seo-for-wordpress/"
+
+#. Description of the plugin/theme
+msgid "A modern SEO plugin for managing meta tags, breadcrumbs, and sitemaps."
+msgstr ""
+"Un plugin SEO moderne pour gérer les balises méta, les fils d'Ariane et les "
+"sitemaps."
+
+#. Author of the plugin/theme
+msgid "Robert DeVore"
+msgstr "Robert DeVore"
+
+#. Author URI of the plugin/theme
+msgid "https://robertdevore.com/"
+msgstr "https://robertdevore.com/"
