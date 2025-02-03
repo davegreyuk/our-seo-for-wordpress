@@ -12,7 +12,7 @@
   * Plugin Name: SEO for WordPress®
   * Description: A modern SEO plugin for managing meta tags, breadcrumbs, and sitemaps.
   * Plugin URI:  https://github.com/robertdevore/seo-for-wordpress/
-  * Version:     1.0.0
+  * Version:     1.0.1
   * Author:      Robert DeVore
   * Author URI:  https://robertdevore.com/
   * License:     GPL-2.0+
@@ -48,7 +48,7 @@ use RobertDevore\WPComCheck\WPComPluginHandler;
 new WPComPluginHandler( plugin_basename( __FILE__ ), 'https://robertdevore.com/why-this-plugin-doesnt-support-wordpress-com-hosting/' );
 
 // Define constants.
-define( 'SEO_WP_VERSION', '1.0.0' );
+define( 'SEO_WP_VERSION', '1.0.1' );
 define( 'SEO_WP_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'SEO_WP_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 

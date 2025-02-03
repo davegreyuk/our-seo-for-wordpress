@@ -1,6 +1,6 @@
 # SEO for WordPress®
 
-SEO for WordPress® is a comprehensive plugin designed to optimize your WordPress® site for search engines. 
+SEO for WordPress® is a free WordPress® plugin designed to optimize your site for search engines. 
 
 It provides tools to manage meta tags, breadcrumbs, RSS customization, robots.txt rules, and sitemaps.
 
