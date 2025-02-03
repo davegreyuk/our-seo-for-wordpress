@@ -39,6 +39,14 @@ $myUpdateChecker = PucFactory::buildUpdateChecker(
 // Set the branch that contains the stable release.
 $myUpdateChecker->setBranch( 'main' );
 
+if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
+    require_once __DIR__ . '/vendor/autoload.php';
+}
+
+use RobertDevore\WPComCheck\WPComPluginHandler;
+
+new WPComPluginHandler( plugin_basename( __FILE__ ), 'https://robertdevore.com/why-this-plugin-doesnt-support-wordpress-com-hosting/' );
+
 // Define constants.
 define( 'SEO_WP_VERSION', '1.0.0' );
 define( 'SEO_WP_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
