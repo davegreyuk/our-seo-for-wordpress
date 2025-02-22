@@ -1,0 +1,313 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SEO for WordPress®\n"
+"POT-Creation-Date: 2025-02-21 22:22-0500\n"
+"PO-Revision-Date: 2025-02-21 22:23-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: seo-for-wordpress.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: includes/breadcrumbs.php:30
+msgid "Home"
+msgstr "Home"
+
+#: includes/breadcrumbs.php:81
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Risultati della ricerca per: %s"
+
+#: includes/breadcrumbs.php:85
+msgid "404 Not Found"
+msgstr "404 Non trovato"
+
+#: includes/metabox.php:13 includes/settings.php:15 includes/settings.php:16
+#: includes/settings.php:36
+msgid "SEO Settings"
+msgstr "Impostazioni SEO"
+
+#: includes/metabox.php:38
+msgid "SEO Title"
+msgstr "Titolo SEO"
+
+#: includes/metabox.php:43
+msgid "SEO Description"
+msgstr "Descrizione SEO"
+
+#: includes/metabox.php:48
+msgid "SEO Keywords"
+msgstr "Chiavi SEO (parole)"
+
+#: includes/metabox.php:53
+msgid "SEO Image"
+msgstr "Immagine SEO"
+
+#: includes/metabox.php:55 includes/metabox.php:174
+msgid "Upload Image"
+msgstr "Carica immagine"
+
+#: includes/metabox.php:61
+msgid "Noindex this page"
+msgstr "Non indicizzare questa pagina"
+
+#: includes/metabox.php:68
+msgid "Nofollow links on this page"
+msgstr "Link nofollow in questa pagina"
+
+#: includes/metabox.php:73 includes/metabox.php:198
+msgid "Canonical URL"
+msgstr "URL canonico"
+
+#: includes/metabox.php:75
+msgid "Set a canonical URL for this page. Leave blank to use the default."
+msgstr ""
+"Imposta un URL canonico per questa pagina. Lasciare vuoto per utilizzare "
+"quello predefinito."
+
+#: includes/metabox.php:130 includes/metabox.php:152
+msgid "Meta Title"
+msgstr "Meta Title"
+
+#: includes/metabox.php:132 includes/metabox.php:156
+msgid "Set a meta title for this archive."
+msgstr "Impostare un meta-titolo per questo archivio."
+
+#: includes/metabox.php:135 includes/metabox.php:161
+msgid "Meta Description"
+msgstr "Descrizione Meta"
+
+#: includes/metabox.php:137 includes/metabox.php:165
+msgid "Set a meta description for this archive."
+msgstr "Impostare una meta descrizione per questo archivio."
+
+#: includes/metabox.php:170
+msgid "Meta Image"
+msgstr "Meta Immagine"
+
+#: includes/metabox.php:175
+msgid "Set an image for this archive (used for social media sharing)."
+msgstr ""
+"Impostare un'immagine per questo archivio (utilizzata per la condivisione "
+"sui social media)."
+
+#: includes/metabox.php:180
+msgid "Noindex"
+msgstr "Noindex"
+
+#: includes/metabox.php:184
+msgid "Prevent this archive from being indexed by search engines."
+msgstr "Impedire che questo archivio venga indicizzato dai motori di ricerca."
+
+#: includes/metabox.php:189
+msgid "Nofollow"
+msgstr "Nofollow"
+
+#: includes/metabox.php:193
+msgid "Add nofollow to links in this archive."
+msgstr "Aggiungere il nofollow ai link di questo archivio."
+
+#: includes/metabox.php:202
+msgid "Set a canonical URL for this archive. Leave blank to use the default."
+msgstr ""
+"Impostare un URL canonico per questo archivio. Lasciare vuoto per "
+"utilizzare quello predefinito."
+
+#: includes/settings.php:38
+msgid "Support"
+msgstr "Supporto"
+
+#: includes/settings.php:41
+msgid "Documentation"
+msgstr "Documentazione"
+
+#: includes/settings.php:47
+msgid "General"
+msgstr "Generale"
+
+#: includes/settings.php:50
+msgid "Advanced"
+msgstr "Avanzate"
+
+#: includes/settings.php:53
+msgid "Import"
+msgstr "Importa"
+
+#: includes/settings.php:71
+msgid "Import SEO Data"
+msgstr "Importazione di dati SEO"
+
+#: includes/settings.php:107
+msgid "Website Basics"
+msgstr "Nozioni di base del sito web"
+
+#: includes/settings.php:111 includes/settings.php:538
+msgid "Website Name"
+msgstr "Nome del sito"
+
+#: includes/settings.php:120
+msgid "Website Tagline"
+msgstr "Tagline del sito web"
+
+#: includes/settings.php:129
+msgid "Title Separator"
+msgstr "Separatore del titolo"
+
+#: includes/settings.php:138
+msgid "Website Image"
+msgstr "Immagine del sito web"
+
+#: includes/settings.php:147
+msgid "Social Media Appearance"
+msgstr "Apparizione sui social media"
+
+#: includes/settings.php:149
+msgid ""
+"Configure how your content appears when shared on social media using Open "
+"Graph meta tags."
+msgstr ""
+"Configurate la visualizzazione dei vostri contenuti quando vengono "
+"condivisi sui social media utilizzando i meta tag Open Graph."
+
+#: includes/settings.php:156
+msgid "Social Media Title"
+msgstr "Titolo dei media sociali"
+
+#: includes/settings.php:165
+msgid "Social Media Description"
+msgstr "Descrizione dei social media"
+
+#: includes/settings.php:174
+msgid "Social Media Image"
+msgstr "Immagine sui social media"
+
+#: includes/settings.php:184
+msgid "Remove Unwanted Metadata"
+msgstr "Rimuovere i metadati indesiderati"
+
+#: includes/settings.php:188
+msgid "Remove Shortlinks"
+msgstr "Rimuovere i collegamenti brevi"
+
+#: includes/settings.php:197
+msgid "Remove REST API Links"
+msgstr "Rimuovere i collegamenti API REST"
+
+#: includes/settings.php:206
+msgid "Remove RSD/WLW Links"
+msgstr "Rimuovere i collegamenti RSD/WLW"
+
+#: includes/settings.php:215
+msgid "Remove oEmbed Links"
+msgstr "Rimuovere i collegamenti oEmbed"
+
+#: includes/settings.php:222
+msgid "Sitemaps"
+msgstr "Sitemap"
+
+#: includes/settings.php:226
+msgid "Enable Sitemaps"
+msgstr "Abilitare le Sitemaps"
+
+#: includes/settings.php:233
+msgid "Breadcrumbs"
+msgstr "Breadcrumbs"
+
+#: includes/settings.php:237
+msgid "Separator Between Breadcrumbs"
+msgstr "Separatore tra le briciole di pane"
+
+#: includes/settings.php:246
+msgid "Homepage Anchor Text"
+msgstr "Testo di ancoraggio della homepage"
+
+#: includes/settings.php:255
+msgid "Breadcrumbs Prefix"
+msgstr "Breadcrumbs Prefix"
+
+#: includes/settings.php:264
+msgid "Bold Current Page"
+msgstr "Grassetto della pagina corrente"
+
+#: includes/settings.php:271
+msgid "RSS"
+msgstr "RSS"
+
+#: includes/settings.php:275
+msgid "Content Before Posts in Feed"
+msgstr "Contenuto prima dei post nel feed"
+
+#: includes/settings.php:284
+msgid "Content After Posts in Feed"
+msgstr "Contenuto dopo i messaggi nel feed"
+
+#: includes/settings.php:293
+msgid "Add Featured Images to Feed"
+msgstr "Aggiungere immagini in primo piano al feed"
+
+#: includes/settings.php:300
+msgid "Robots"
+msgstr "Robots"
+
+#: includes/settings.php:304
+msgid "Custom Robots.txt Rules"
+msgstr "Regole Robots.txt personalizzate"
+
+#: includes/settings.php:463
+msgid "Add Image"
+msgstr "Aggiungi immagine"
+
+#: includes/settings.php:498 includes/settings.php:499
+#: includes/settings.php:532
+msgid "SEO Network Settings"
+msgstr "Impostazioni della rete SEO"
+
+#: includes/settings.php:526
+msgid "Settings saved."
+msgstr "Impostazioni salvate."
+
+#: includes/settings.php:547
+msgid "Save Changes"
+msgstr "Salva modifiche"
+
+#: includes/settings.php:683
+msgid "SEO data imported successfully."
+msgstr "I dati SEO sono stati importati con successo."
+
+#: seo-for-wordpress.php:63
+msgid "Settings"
+msgstr "Impostazioni"
+
+#. Plugin Name of the plugin/theme
+msgid "SEO for WordPress®"
+msgstr "SEO per WordPress"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/robertdevore/seo-for-wordpress/"
+msgstr "https://github.com/robertdevore/seo-for-wordpress/"
+
+#. Description of the plugin/theme
+msgid "A modern SEO plugin for managing meta tags, breadcrumbs, and sitemaps."
+msgstr ""
+"Un moderno plugin SEO per la gestione di meta tag, briciole di pane e "
+"sitemap."
+
+#. Author of the plugin/theme
+msgid "Robert DeVore"
+msgstr "Robert DeVore"
+
+#. Author URI of the plugin/theme
+msgid "https://robertdevore.com/"
+msgstr "https://robertdevore.com/"
