@@ -147,10 +147,7 @@ function seo_wp_activate() {
 register_activation_hook( __FILE__, 'seo_wp_activate' );
 
 /**
- * Enqueue media uploader scripts and admin styles.
- *
- * This function enqueues the necessary media uploader scripts and custom admin styles
- * on specific admin pages.
+ * Enqueue media uploader scripts, admin styles, and SEO character counter.
  *
  * @param string $hook The current admin page hook suffix.
  * 
@@ -159,12 +156,20 @@ register_activation_hook( __FILE__, 'seo_wp_activate' );
  */
 function seo_wp_enqueue_media_uploader( $hook ) {
     // Load only on specific admin pages.
-    if ( in_array( $hook, [ 'settings_page_seo-for-wordpress', 'post.php', 'edit-tags.php' ], true ) ) {
+    if ( in_array( $hook, [ 'settings_page_seo-for-wordpress', 'post.php', 'post-new.php', 'edit-tags.php' ], true ) ) {
         wp_enqueue_media();
         wp_enqueue_script(
             'seo-wp-media-uploader',
             SEO_WP_PLUGIN_URL . 'js/media-uploader.js',
             [ 'jquery' ],
+            SEO_WP_VERSION,
+            true
+        );
+
+        wp_enqueue_script(
+            'seo-wp-character-counter',
+            SEO_WP_PLUGIN_URL . 'js/seo-character-counter.js',
+            [],
             SEO_WP_VERSION,
             true
         );
