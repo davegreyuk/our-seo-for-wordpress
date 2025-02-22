@@ -49,21 +49,43 @@ function seo_wp_render_settings_page() {
             <a href="?page=seo-for-wordpress&amp;tab=advanced" class="nav-tab <?php echo $active_tab === 'advanced' ? 'nav-tab-active' : ''; ?>">
                 <?php esc_html_e( 'Advanced', 'seo-for-wordpress' ); ?>
             </a>
+            <a href="?page=seo-for-wordpress&amp;tab=import" class="nav-tab <?php echo $active_tab === 'import' ? 'nav-tab-active' : ''; ?>">
+                <?php esc_html_e( 'Import', 'seo-for-wordpress' ); ?>
+            </a>
         </h2>
         <hr style="margin-top: 18px;" />
-        <form method="post" action="options.php">
-            <?php
-            // Output the appropriate settings fields and sections based on the active tab.
-            if ( $active_tab === 'general' ) {
-                settings_fields( 'seo_wp_general_settings_group' );
-                do_settings_sections( 'seo_wp_general' );
-            } elseif ( $active_tab === 'advanced' ) {
-                settings_fields( 'seo_wp_advanced_settings_group' );
-                do_settings_sections( 'seo_wp_advanced' );
-            }
-            submit_button();
-            ?>
-        </form>
+        <?php if ( $active_tab === 'import' ) : ?>
+            <form method="post" action="" enctype="multipart/form-data">
+                <?php wp_nonce_field( 'seo_wp_import_csv', 'seo_wp_import_nonce' ); ?>
+                <table class="form-table">
+                    <tr>
+                        <th scope="row">
+                            <label for="seo_wp_csv_file">CSV File</label>
+                        </th>
+                        <td>
+                            <input type="file" name="seo_wp_csv_file" id="seo_wp_csv_file" accept=".csv">
+                        </td>
+                    </tr>
+                </table>
+                <p class="submit">
+                    <input type="submit" name="seo_wp_import_submit" class="button-primary" value="<?php esc_attr_e( 'Import SEO Data', 'seo-for-wordpress' ); ?>">
+                </p>
+            </form>
+        <?php else : ?>
+            <form method="post" action="options.php">
+                <?php
+                // Output the appropriate settings fields and sections based on the active tab.
+                if ( $active_tab === 'general' ) {
+                    settings_fields( 'seo_wp_general_settings_group' );
+                    do_settings_sections( 'seo_wp_general' );
+                } elseif ( $active_tab === 'advanced' ) {
+                    settings_fields( 'seo_wp_advanced_settings_group' );
+                    do_settings_sections( 'seo_wp_advanced' );
+                }
+                submit_button();
+                ?>
+            </form>
+        <?php endif; ?>
     </div>
     <?php
 }
@@ -630,3 +652,38 @@ function seo_wp_add_featured_image_to_feed() {
     }
 }
 add_action( 'rss2_item', 'seo_wp_add_featured_image_to_feed' );
+
+/**
+ * Handle CSV import
+ * 
+ * @since  1.1.0
+ * @return void
+ */
+function seo_wp_handle_csv_import() {
+    if ( isset( $_POST['seo_wp_import_submit'] ) && check_admin_referer( 'seo_wp_import_csv', 'seo_wp_import_nonce' ) ) {
+        if ( ! empty( $_FILES['seo_wp_csv_file']['tmp_name'] ) ) {
+            $file = $_FILES['seo_wp_csv_file']['tmp_name'];
+            $handle = fopen( $file, 'r' );
+            if ( $handle !== false ) {
+                fgetcsv( $handle ); // Skip header row
+                while ( ( $data = fgetcsv( $handle ) ) !== false ) {
+                    $post_id = intval( $data[0] );
+                    if ( get_post( $post_id ) ) {
+                        update_post_meta( $post_id, '_seo_wp_seo_title', sanitize_text_field( $data[4] ) );
+                        update_post_meta( $post_id, '_seo_wp_seo_description', sanitize_textarea_field( $data[5] ) );
+                        update_post_meta( $post_id, '_seo_wp_seo_keywords', sanitize_text_field( $data[3] ) );
+                        //update_post_meta( $post_id, '_seo_wp_seo_image', esc_url_raw( $data[4] ) );
+                        //update_post_meta( $post_id, '_seo_wp_noindex', $data[5] === '1' ? 1 : 0 );
+                        //update_post_meta( $post_id, '_seo_wp_nofollow', $data[6] === '1' ? 1 : 0 );
+                        //update_post_meta( $post_id, '_seo_wp_canonical_url', esc_url_raw( $data[7] ) );
+                    }
+                }
+                fclose( $handle );
+                add_action( 'admin_notices', function() {
+                    echo '<div class="updated"><p>' . esc_html__( 'SEO data imported successfully.', 'seo-for-wordpress' ) . '</p></div>';
+                } );
+            }
+        }
+    }
+}
+add_action( 'admin_init', 'seo_wp_handle_csv_import' );
