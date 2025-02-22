@@ -90,7 +90,13 @@ function seo_wp_generate_breadcrumbs() {
     if ( $breadcrumbs_prefix ) {
         $output .= '<span class="breadcrumbs-prefix">' . esc_html( $breadcrumbs_prefix ) . '</span> ';
     }
-    $output .= implode( $separator, $breadcrumbs );
+    $output .= array_reduce(
+        $breadcrumbs, 
+        function ( $carry, $item ) use ( $separator ) {
+            return $carry === '' ? $item : $carry . $separator . $item;
+        }, 
+        ''
+    );
     $output .= '</nav>';
 
     return $output;
