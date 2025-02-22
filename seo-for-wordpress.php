@@ -48,6 +48,24 @@ use RobertDevore\WPComCheck\WPComPluginHandler;
 
 new WPComPluginHandler( plugin_basename( __FILE__ ), 'https://robertdevore.com/why-this-plugin-doesnt-support-wordpress-com-hosting/' );
 
+// Plugin basename.
+$plugin_name = plugin_basename( __FILE__ );
+
+/**
+ * Add settings link on plugin page
+ *
+ * @param array $links an array of links related to the plugin.
+ *
+ * @since  1.1.0
+ * @return array updatead array of links related to the plugin.
+ */
+function seo_wp_settings_link( $links ) {
+    $settings_link = '<a href="options-general.php?page=seo-for-wordpress">' . esc_html__( 'Settings', 'seo-for-wordpress' ) . '</a>';
+    array_unshift( $links, $settings_link );
+    return $links;
+}
+add_filter( "plugin_action_links_$plugin_name", 'seo_wp_settings_link' );
+
 /**
  * Load plugin text domain for translations
  * 
