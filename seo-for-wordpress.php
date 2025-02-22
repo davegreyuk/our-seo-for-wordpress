@@ -48,6 +48,21 @@ use RobertDevore\WPComCheck\WPComPluginHandler;
 
 new WPComPluginHandler( plugin_basename( __FILE__ ), 'https://robertdevore.com/why-this-plugin-doesnt-support-wordpress-com-hosting/' );
 
+/**
+ * Load plugin text domain for translations
+ * 
+ * @since 1.1.0
+ * @return void
+ */
+function seo_wp_load_textdomain() {
+    load_plugin_textdomain( 
+        'seo-for-wordpress', 
+        false, 
+        dirname( plugin_basename( __FILE__ ) ) . '/languages/'
+    );
+}
+add_action( 'plugins_loaded', 'seo_wp_load_textdomain' );
+
 // Define constants.
 define( 'SEO_WP_VERSION', '1.0.1' );
 define( 'SEO_WP_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
