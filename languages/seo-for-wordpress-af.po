@@ -1,0 +1,311 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SEO for WordPress®\n"
+"POT-Creation-Date: 2025-02-21 22:24-0500\n"
+"PO-Revision-Date: 2025-02-21 22:25-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: af\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: seo-for-wordpress.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: includes/breadcrumbs.php:30
+msgid "Home"
+msgstr "Hoofblad"
+
+#: includes/breadcrumbs.php:81
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Soekresultate vir: %s"
+
+#: includes/breadcrumbs.php:85
+msgid "404 Not Found"
+msgstr "404 Nie gevind nie"
+
+#: includes/metabox.php:13 includes/settings.php:15 includes/settings.php:16
+#: includes/settings.php:36
+msgid "SEO Settings"
+msgstr "SEO-instellings"
+
+#: includes/metabox.php:38
+msgid "SEO Title"
+msgstr "SEO titel"
+
+#: includes/metabox.php:43
+msgid "SEO Description"
+msgstr "SEO beskrywing"
+
+#: includes/metabox.php:48
+msgid "SEO Keywords"
+msgstr "SEO sleutelwoorde"
+
+#: includes/metabox.php:53
+msgid "SEO Image"
+msgstr "SEO beeld"
+
+#: includes/metabox.php:55 includes/metabox.php:174
+msgid "Upload Image"
+msgstr "Laai prent op"
+
+#: includes/metabox.php:61
+msgid "Noindex this page"
+msgstr "Noindex hierdie bladsy"
+
+#: includes/metabox.php:68
+msgid "Nofollow links on this page"
+msgstr "Nofollow-skakels op hierdie bladsy"
+
+#: includes/metabox.php:73 includes/metabox.php:198
+msgid "Canonical URL"
+msgstr "Kanoniese URL"
+
+#: includes/metabox.php:75
+msgid "Set a canonical URL for this page. Leave blank to use the default."
+msgstr ""
+"Stel 'n kanonieke URL vir hierdie bladsy. Laat leeg om die verstek te "
+"gebruik."
+
+#: includes/metabox.php:130 includes/metabox.php:152
+msgid "Meta Title"
+msgstr "Meta titel"
+
+#: includes/metabox.php:132 includes/metabox.php:156
+msgid "Set a meta title for this archive."
+msgstr "Stel 'n meta-titel vir hierdie argief."
+
+#: includes/metabox.php:135 includes/metabox.php:161
+msgid "Meta Description"
+msgstr "Meta Beskrywing"
+
+#: includes/metabox.php:137 includes/metabox.php:165
+msgid "Set a meta description for this archive."
+msgstr "Stel 'n metabeskrywing vir hierdie argief."
+
+#: includes/metabox.php:170
+msgid "Meta Image"
+msgstr "Meta Beeld"
+
+#: includes/metabox.php:175
+msgid "Set an image for this archive (used for social media sharing)."
+msgstr "Stel 'n prent vir hierdie argief (gebruik vir sosiale media-deling)."
+
+#: includes/metabox.php:180
+msgid "Noindex"
+msgstr "Geen indeks"
+
+#: includes/metabox.php:184
+msgid "Prevent this archive from being indexed by search engines."
+msgstr "Verhoed dat hierdie argief deur soekenjins geïndekseer word."
+
+#: includes/metabox.php:189
+msgid "Nofollow"
+msgstr "Geen volg"
+
+#: includes/metabox.php:193
+msgid "Add nofollow to links in this archive."
+msgstr "Voeg nofollow by skakels in hierdie argief."
+
+#: includes/metabox.php:202
+msgid "Set a canonical URL for this archive. Leave blank to use the default."
+msgstr ""
+"Stel 'n kanonieke URL vir hierdie argief. Laat leeg om die verstek te "
+"gebruik."
+
+#: includes/settings.php:38
+msgid "Support"
+msgstr "Hulp"
+
+#: includes/settings.php:41
+msgid "Documentation"
+msgstr "Dokumentasie"
+
+#: includes/settings.php:47
+msgid "General"
+msgstr "Algemeen"
+
+#: includes/settings.php:50
+msgid "Advanced"
+msgstr "Gevorderd"
+
+#: includes/settings.php:53
+msgid "Import"
+msgstr "Invoer"
+
+#: includes/settings.php:71
+msgid "Import SEO Data"
+msgstr "Voer SEO-data in"
+
+#: includes/settings.php:107
+msgid "Website Basics"
+msgstr "Webwerf basiese beginsels"
+
+#: includes/settings.php:111 includes/settings.php:538
+msgid "Website Name"
+msgstr "Webwerf Naam"
+
+#: includes/settings.php:120
+msgid "Website Tagline"
+msgstr "Webwerf Tagline"
+
+#: includes/settings.php:129
+msgid "Title Separator"
+msgstr "Titelskeiding"
+
+#: includes/settings.php:138
+msgid "Website Image"
+msgstr "Webwerf beeld"
+
+#: includes/settings.php:147
+msgid "Social Media Appearance"
+msgstr "Sosiale media-voorkoms"
+
+#: includes/settings.php:149
+msgid ""
+"Configure how your content appears when shared on social media using Open "
+"Graph meta tags."
+msgstr ""
+"Stel met Open Graph-metamerkers op hoe jou inhoud verskyn wanneer dit op "
+"sosiale media gedeel word."
+
+#: includes/settings.php:156
+msgid "Social Media Title"
+msgstr "Sosiale media titel"
+
+#: includes/settings.php:165
+msgid "Social Media Description"
+msgstr "Sosiale media beskrywing"
+
+#: includes/settings.php:174
+msgid "Social Media Image"
+msgstr "Sosiale media beeld"
+
+#: includes/settings.php:184
+msgid "Remove Unwanted Metadata"
+msgstr "Verwyder ongewenste metadata"
+
+#: includes/settings.php:188
+msgid "Remove Shortlinks"
+msgstr "Verwyder kortskakels"
+
+#: includes/settings.php:197
+msgid "Remove REST API Links"
+msgstr "Verwyder REST API-skakels"
+
+#: includes/settings.php:206
+msgid "Remove RSD/WLW Links"
+msgstr "Verwyder RSD/WLW-skakels"
+
+#: includes/settings.php:215
+msgid "Remove oEmbed Links"
+msgstr "Verwyder oEmbed-skakels"
+
+#: includes/settings.php:222
+msgid "Sitemaps"
+msgstr "Werfkaarte"
+
+#: includes/settings.php:226
+msgid "Enable Sitemaps"
+msgstr "Aktiveer werfkaarte"
+
+#: includes/settings.php:233
+msgid "Breadcrumbs"
+msgstr "Broodkrummels"
+
+#: includes/settings.php:237
+msgid "Separator Between Breadcrumbs"
+msgstr "Skei tussen broodkrummels"
+
+#: includes/settings.php:246
+msgid "Homepage Anchor Text"
+msgstr "Tuisblad Anker teks"
+
+#: includes/settings.php:255
+msgid "Breadcrumbs Prefix"
+msgstr "Broodkrummels Voorvoegsel"
+
+#: includes/settings.php:264
+msgid "Bold Current Page"
+msgstr "Vet huidige bladsy"
+
+#: includes/settings.php:271
+msgid "RSS"
+msgstr "RSS"
+
+#: includes/settings.php:275
+msgid "Content Before Posts in Feed"
+msgstr "Inhoud voor plasings in stroom"
+
+#: includes/settings.php:284
+msgid "Content After Posts in Feed"
+msgstr "Inhoud na plasings in stroom"
+
+#: includes/settings.php:293
+msgid "Add Featured Images to Feed"
+msgstr "Voeg uitgestalde prente by stroom"
+
+#: includes/settings.php:300
+msgid "Robots"
+msgstr "Robotte"
+
+#: includes/settings.php:304
+msgid "Custom Robots.txt Rules"
+msgstr "Gepasmaakte Robots.txt-reëls"
+
+#: includes/settings.php:463
+msgid "Add Image"
+msgstr "Voeg prent by"
+
+#: includes/settings.php:498 includes/settings.php:499
+#: includes/settings.php:532
+msgid "SEO Network Settings"
+msgstr "SEO-netwerkinstellings"
+
+#: includes/settings.php:526
+msgid "Settings saved."
+msgstr "Verstellings gestor."
+
+#: includes/settings.php:547
+msgid "Save Changes"
+msgstr "Stoor veranderinge"
+
+#: includes/settings.php:683
+msgid "SEO data imported successfully."
+msgstr "SEO-data is suksesvol ingevoer."
+
+#: seo-for-wordpress.php:63
+msgid "Settings"
+msgstr "Vertellings"
+
+#. Plugin Name of the plugin/theme
+msgid "SEO for WordPress®"
+msgstr "SEO vir WordPress®"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/robertdevore/seo-for-wordpress/"
+msgstr "https://github.com/robertdevore/seo-for-wordpress/"
+
+#. Description of the plugin/theme
+msgid "A modern SEO plugin for managing meta tags, breadcrumbs, and sitemaps."
+msgstr ""
+"'n Moderne SEO-inprop vir die bestuur van metamerkers, broodkrummels en "
+"werfkaarte."
+
+#. Author of the plugin/theme
+msgid "Robert DeVore"
+msgstr "Robert DeVore"
+
+#. Author URI of the plugin/theme
+msgid "https://robertdevore.com/"
+msgstr "https://robertdevore.com/"
