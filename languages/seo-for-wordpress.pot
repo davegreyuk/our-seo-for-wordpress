@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SEO for WordPress®\n"
-"POT-Creation-Date: 2025-02-03 01:07-0500\n"
-"PO-Revision-Date: 2025-02-03 01:07-0500\n"
+"POT-Creation-Date: 2025-02-21 22:19-0500\n"
+"PO-Revision-Date: 2025-02-21 22:19-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -136,135 +136,151 @@ msgstr ""
 msgid "Advanced"
 msgstr ""
 
-#: includes/settings.php:85
-msgid "Website Basics"
+#: includes/settings.php:53
+msgid "Import"
 msgstr ""
 
-#: includes/settings.php:89 includes/settings.php:516
-msgid "Website Name"
-msgstr ""
-
-#: includes/settings.php:98
-msgid "Website Tagline"
+#: includes/settings.php:71
+msgid "Import SEO Data"
 msgstr ""
 
 #: includes/settings.php:107
+msgid "Website Basics"
+msgstr ""
+
+#: includes/settings.php:111 includes/settings.php:538
+msgid "Website Name"
+msgstr ""
+
+#: includes/settings.php:120
+msgid "Website Tagline"
+msgstr ""
+
+#: includes/settings.php:129
 msgid "Title Separator"
 msgstr ""
 
-#: includes/settings.php:116
+#: includes/settings.php:138
 msgid "Website Image"
 msgstr ""
 
-#: includes/settings.php:125
+#: includes/settings.php:147
 msgid "Social Media Appearance"
 msgstr ""
 
-#: includes/settings.php:127
+#: includes/settings.php:149
 msgid ""
 "Configure how your content appears when shared on social media using Open "
 "Graph meta tags."
 msgstr ""
 
-#: includes/settings.php:134
+#: includes/settings.php:156
 msgid "Social Media Title"
 msgstr ""
 
-#: includes/settings.php:143
+#: includes/settings.php:165
 msgid "Social Media Description"
 msgstr ""
 
-#: includes/settings.php:152
+#: includes/settings.php:174
 msgid "Social Media Image"
 msgstr ""
 
-#: includes/settings.php:162
+#: includes/settings.php:184
 msgid "Remove Unwanted Metadata"
 msgstr ""
 
-#: includes/settings.php:166
+#: includes/settings.php:188
 msgid "Remove Shortlinks"
 msgstr ""
 
-#: includes/settings.php:175
+#: includes/settings.php:197
 msgid "Remove REST API Links"
 msgstr ""
 
-#: includes/settings.php:184
+#: includes/settings.php:206
 msgid "Remove RSD/WLW Links"
 msgstr ""
 
-#: includes/settings.php:193
+#: includes/settings.php:215
 msgid "Remove oEmbed Links"
 msgstr ""
 
-#: includes/settings.php:200
+#: includes/settings.php:222
 msgid "Sitemaps"
 msgstr ""
 
-#: includes/settings.php:204
+#: includes/settings.php:226
 msgid "Enable Sitemaps"
 msgstr ""
 
-#: includes/settings.php:211
+#: includes/settings.php:233
 msgid "Breadcrumbs"
 msgstr ""
 
-#: includes/settings.php:215
+#: includes/settings.php:237
 msgid "Separator Between Breadcrumbs"
 msgstr ""
 
-#: includes/settings.php:224
+#: includes/settings.php:246
 msgid "Homepage Anchor Text"
 msgstr ""
 
-#: includes/settings.php:233
+#: includes/settings.php:255
 msgid "Breadcrumbs Prefix"
 msgstr ""
 
-#: includes/settings.php:242
+#: includes/settings.php:264
 msgid "Bold Current Page"
 msgstr ""
 
-#: includes/settings.php:249
+#: includes/settings.php:271
 msgid "RSS"
 msgstr ""
 
-#: includes/settings.php:253
+#: includes/settings.php:275
 msgid "Content Before Posts in Feed"
 msgstr ""
 
-#: includes/settings.php:262
+#: includes/settings.php:284
 msgid "Content After Posts in Feed"
 msgstr ""
 
-#: includes/settings.php:271
+#: includes/settings.php:293
 msgid "Add Featured Images to Feed"
 msgstr ""
 
-#: includes/settings.php:278
+#: includes/settings.php:300
 msgid "Robots"
 msgstr ""
 
-#: includes/settings.php:282
+#: includes/settings.php:304
 msgid "Custom Robots.txt Rules"
 msgstr ""
 
-#: includes/settings.php:441
+#: includes/settings.php:463
 msgid "Add Image"
 msgstr ""
 
-#: includes/settings.php:476 includes/settings.php:477
-#: includes/settings.php:510
+#: includes/settings.php:498 includes/settings.php:499
+#: includes/settings.php:532
 msgid "SEO Network Settings"
 msgstr ""
 
-#: includes/settings.php:504
+#: includes/settings.php:526
 msgid "Settings saved."
 msgstr ""
 
-#: includes/settings.php:525
+#: includes/settings.php:547
 msgid "Save Changes"
+msgstr ""
+
+#: includes/settings.php:683
+msgid "SEO data imported successfully."
+msgstr ""
+
+#: seo-for-wordpress.php:63
+msgid "Settings"
 msgstr ""
 
 #. Plugin Name of the plugin/theme

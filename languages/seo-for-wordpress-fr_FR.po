@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SEO for WordPress®\n"
-"POT-Creation-Date: 2025-02-03 01:07-0500\n"
-"PO-Revision-Date: 2025-02-03 01:09-0500\n"
+"POT-Creation-Date: 2025-02-21 22:21-0500\n"
+"PO-Revision-Date: 2025-02-21 22:22-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -15,8 +15,8 @@ msgstr ""
 "X-Poedit-WPHeader: seo-for-wordpress.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
-"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
 "X-Poedit-SearchPathExcluded-1: vendor\n"
@@ -141,139 +141,154 @@ msgstr "Général"
 msgid "Advanced"
 msgstr "Avancé"
 
-#: includes/settings.php:85
-#, fuzzy
+#: includes/settings.php:53
+msgid "Import"
+msgstr "Importer"
+
+#: includes/settings.php:71
+msgid "Import SEO Data"
+msgstr "Importer des données SEO"
+
+#: includes/settings.php:107
 msgid "Website Basics"
 msgstr "Les bases du site web"
 
-#: includes/settings.php:89 includes/settings.php:516
+#: includes/settings.php:111 includes/settings.php:538
 msgid "Website Name"
 msgstr "Nom du site"
 
-#: includes/settings.php:98
+#: includes/settings.php:120
 msgid "Website Tagline"
 msgstr "Slogan du site Web"
 
-#: includes/settings.php:107
+#: includes/settings.php:129
 msgid "Title Separator"
 msgstr "Séparateur de titre"
 
-#: includes/settings.php:116
+#: includes/settings.php:138
 msgid "Website Image"
 msgstr "Image du site web"
 
-#: includes/settings.php:125
+#: includes/settings.php:147
 msgid "Social Media Appearance"
 msgstr "Apparition dans les médias sociaux"
 
-#: includes/settings.php:127
+#: includes/settings.php:149
 msgid ""
 "Configure how your content appears when shared on social media using Open "
 "Graph meta tags."
 msgstr ""
-"Configurez l'affichage de votre contenu lorsqu'il est partagé sur les "
-"médias sociaux à l'aide des balises méta Open Graph."
+"Configurez l'affichage de votre contenu lorsqu'il est partagé sur les médias "
+"sociaux à l'aide des balises méta Open Graph."
 
-#: includes/settings.php:134
+#: includes/settings.php:156
 msgid "Social Media Title"
 msgstr "Titre des médias sociaux"
 
-#: includes/settings.php:143
+#: includes/settings.php:165
 msgid "Social Media Description"
 msgstr "Description des médias sociaux"
 
-#: includes/settings.php:152
+#: includes/settings.php:174
 msgid "Social Media Image"
 msgstr "Image des médias sociaux"
 
-#: includes/settings.php:162
+#: includes/settings.php:184
 msgid "Remove Unwanted Metadata"
 msgstr "Supprimer les métadonnées indésirables"
 
-#: includes/settings.php:166
+#: includes/settings.php:188
 msgid "Remove Shortlinks"
 msgstr "Supprimer les liens courts"
 
-#: includes/settings.php:175
+#: includes/settings.php:197
 msgid "Remove REST API Links"
 msgstr "Supprimer les liens API REST"
 
-#: includes/settings.php:184
+#: includes/settings.php:206
 msgid "Remove RSD/WLW Links"
 msgstr "Supprimer les liens RSD/WLW"
 
-#: includes/settings.php:193
+#: includes/settings.php:215
 msgid "Remove oEmbed Links"
 msgstr "Supprimer les liens oEmbed"
 
-#: includes/settings.php:200
+#: includes/settings.php:222
 msgid "Sitemaps"
 msgstr "Sitemaps"
 
-#: includes/settings.php:204
+#: includes/settings.php:226
 msgid "Enable Sitemaps"
 msgstr "Activer les sitemaps"
 
-#: includes/settings.php:211
+#: includes/settings.php:233
 msgid "Breadcrumbs"
 msgstr "Fil d’Ariane"
 
-#: includes/settings.php:215
+#: includes/settings.php:237
 msgid "Separator Between Breadcrumbs"
 msgstr "Séparateur de chapelure"
 
-#: includes/settings.php:224
+#: includes/settings.php:246
 msgid "Homepage Anchor Text"
 msgstr "Texte d'ancrage de la page d'accueil"
 
-#: includes/settings.php:233
+#: includes/settings.php:255
 msgid "Breadcrumbs Prefix"
 msgstr "Préfixe du fil d'Ariane"
 
-#: includes/settings.php:242
+#: includes/settings.php:264
 msgid "Bold Current Page"
 msgstr "Page actuelle en gras"
 
-#: includes/settings.php:249
+#: includes/settings.php:271
 msgid "RSS"
 msgstr "RSS"
 
-#: includes/settings.php:253
+#: includes/settings.php:275
 msgid "Content Before Posts in Feed"
 msgstr "Contenu avant les messages dans le flux"
 
-#: includes/settings.php:262
+#: includes/settings.php:284
 msgid "Content After Posts in Feed"
 msgstr "Contenu après les messages dans le flux"
 
-#: includes/settings.php:271
+#: includes/settings.php:293
 msgid "Add Featured Images to Feed"
 msgstr "Ajouter des images vedettes au flux"
 
-#: includes/settings.php:278
+#: includes/settings.php:300
 msgid "Robots"
 msgstr "Robots"
 
-#: includes/settings.php:282
+#: includes/settings.php:304
 msgid "Custom Robots.txt Rules"
 msgstr "Règles Robots.txt personnalisées"
 
-#: includes/settings.php:441
+#: includes/settings.php:463
 msgid "Add Image"
 msgstr "Ajouter une image"
 
-#: includes/settings.php:476 includes/settings.php:477
-#: includes/settings.php:510
+#: includes/settings.php:498 includes/settings.php:499
+#: includes/settings.php:532
 msgid "SEO Network Settings"
 msgstr "Paramètres du réseau SEO"
 
-#: includes/settings.php:504
+#: includes/settings.php:526
 msgid "Settings saved."
 msgstr "Paramètres sauvegardés."
 
-#: includes/settings.php:525
+#: includes/settings.php:547
 msgid "Save Changes"
 msgstr "Sauvegarder les changements"
+
+#: includes/settings.php:683
+msgid "SEO data imported successfully."
+msgstr "Les données SEO ont été importées avec succès."
+
+#: seo-for-wordpress.php:63
+msgid "Settings"
+msgstr "Paramètres"
 
 #. Plugin Name of the plugin/theme
 msgid "SEO for WordPress®"
