@@ -84,7 +84,7 @@ It provides tools to manage meta tags, breadcrumbs, RSS customization, robots.tx
 ## Contribution
 
 ### Bug Reports and Feature Requests
-Submit issues or feature requests via [GitHub Issues](https://github.com/robertdevore/seo-for-wordpress/issues).
+Submit issues or feature requests via [GitHub Issues](https://github.com/davegreyuk/our-seo-for-wordpress/issues).
 
 ## License
 
